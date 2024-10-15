@@ -1,0 +1,42 @@
+.video-gallery {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.video-title {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.video-frame {
+    width: 100%;
+    height: 450px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.video-controls {
+    margin-top: 20px;
+}
+
+.control-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin: 0 10px;
+}
+
+.control-button:hover {
+    background-color: #45a049;
+}

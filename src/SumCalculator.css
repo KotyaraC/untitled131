@@ -1,0 +1,39 @@
+/* Стилі для контейнера калькулятора */
+.calculator-container {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #f4f7fa;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+/* Стилі для заголовка */
+.calculator-container h1 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.number-input {
+    width: 90%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 2px solid #4CAF50;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: border-color 0.3s ease;
+}
+
+.number-input:focus {
+    border-color: #388E3C;
+    outline: none;
+}
+
+.calculator-container h2 {
+    margin-top: 20px;
+    font-size: 32px;
+    font-weight: bold;
+    color: #333;
+}
